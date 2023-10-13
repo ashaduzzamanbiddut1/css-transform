@@ -1,0 +1,296 @@
+/* global */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin:0rem;
+    padding:0rem;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 67.50%;
+    --primary-color:#21243D;
+    --button: #878CFF;
+    --white: #FFFFFF;
+    --para:#777;
+}
+
+.container{
+    max-width: 1100px;
+    margin:auto;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.btn-head{
+    display: inline-block;
+    background-color: var(--primary-color); 
+    color: var(--white); 
+    text-decoration: none;
+    padding:.5rem 1.5rem;
+    border-radius: .3rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn-section{
+    display: inline-block;
+    background-color: var(--button); 
+    color: var(--white); 
+    text-decoration: none;
+    padding:.5rem 1.5rem;
+    border-radius: .3rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn-project{
+    display: inline-block;
+    color: var(--button); 
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.light{
+    color: var(--button);
+}
+
+/* global end */
+
+
+/* header start */
+
+.head{
+    padding:1.5rem 0rem;
+    
+}
+
+.head-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-flex h1{
+    color: var(--primary-color);
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.head-flex nav ul{
+    display: flex;
+    gap:2rem;
+}
+
+.head-flex nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+       
+}
+
+/* header end */
+
+/* section 1 */
+
+.section1-text{
+    padding:7rem 0rem 9rem 0rem;
+    width:660px;
+    margin:auto;
+    text-align: center;
+}
+
+.section1-text h2{
+    font-family: Poppins;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.section1-text p{
+    color: #777;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    padding:2rem 0rem;
+}
+
+/* section 1 end */
+
+/* section 2 start */
+
+.section2-flex{
+    margin: 4rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:3rem;
+}
+
+.section2-text h2{
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+
+.section2-text p{
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 2.5rem 0rem;
+}
+
+
+/* section 2 end */
+
+/* section 3 start  */
+
+.section3-head h2{
+    text-align: center;
+    padding: 1rem 0rem 7rem 0rem;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section3-project-flex{
+    display: flex;
+    gap:2rem;
+    padding-bottom: 8rem;
+}
+
+.im{
+    max-width: 100%;
+    border-radius: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.section3-project-flex h3{
+    color: var(--primary-color) ;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2rem 0rem;
+}
+
+/* section 3 end  */
+
+
+/* section 4 start */
+
+.section4{
+    padding: 7rem 0rem;
+}
+
+.section4-head{
+    text-align: flex-start;
+    padding:3rem 0rem;
+}
+
+.section4-head h2{
+    color: var(--button);
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section4-foot{
+    display: flex;
+    gap:3rem;
+    
+}
+
+.d{
+    border: 1px solid #E2E2E2;
+    padding:7rem 7rem;
+}
+
+.d h5{
+    color: #777;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+.d h3{
+    color: var(--primary-color);
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.d p{
+    color: #6F6F6F;
+    text-align: justify;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* section 4 end  */
+
+
+/* footer start  */
+
+.footer{
+    background-color:#1E1E1E;
+    padding: 5rem 0rem;
+    text-align: center;
+
+.footer-img{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+
+}
+
+.footer-text{
+    padding:2rem 0rem;
+}
+
+.footer-text h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* footer end  */
+
+@media(max-width:390px) {
+
+    .head{
+        background-color: red;
+    }
+
+    .head-flex{
+        flex-direction: columnJ
+        ;
+    }
+
+
+}
